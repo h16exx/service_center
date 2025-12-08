@@ -45,7 +45,7 @@ namespace firstForm
 
         private void mainBtn_Click(object sender, EventArgs e)
         {
-            secondForm sf = new secondForm();
+            secondForm sf = new secondForm(); // здесь создается экземпляр второй формы для взаимодействия с ее кодом
             sf.Show();
             this.Hide();
         }
