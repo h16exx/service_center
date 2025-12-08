@@ -39,7 +39,7 @@ namespace firstForm
         }
         private void PrintDoc_PrintPage(object sender, PrintPageEventArgs e)
         {
-            string text = "Это текст примера печати.\n\n — сервисный центр.";
+            string text = "Пример текста.";
             e.Graphics.DrawString(text, new Font("Arial", 14), Brushes.Black, 50, 50);
         }
 
