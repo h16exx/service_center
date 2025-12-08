@@ -12,7 +12,7 @@ namespace firstForm
         private OleDbCommandBuilder builder;
         private DataTable table;
 
-        string connStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\РАНХиГС\3 курс\Моделирование ПО\Database.accdb;";
+        string connStr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=./Database.accdb;";
 
         public thirdForm()
         {
